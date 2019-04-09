@@ -9,12 +9,12 @@ $(function(){
       window.clearInterval(timer);
       $btnAgree.removeAttr('disabled');
       $btnAgree.val('同意');
-      $btnAgree.click(function(){
-        alert('SPA！01-timer-button task!');
-      });
     }else{
-      $btnAgree.attr('disabled',true);
+      //$btnAgree.attr('disabled',true);
       $btnAgree.val('同意('+n+'s)');
     }
   },1000);
+  $btnAgree.click(function(){
+    alert('SPA! 01-timer-button task');
+  });
 });

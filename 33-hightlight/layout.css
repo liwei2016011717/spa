@@ -4,3 +4,10 @@ body {
   padding:0;
   width:100%;
 }
+.javascript{
+  height:40px;
+}
+.btn{
+  position:absolute;
+  float:right;
+}
